@@ -1,0 +1,27 @@
+#include <stdio.h>
+#include <locale.h>
+
+int main(){
+	setlocale(LC_ALL,"Portuguese_Brazil");
+	float nota1, nota2,nota3,soma, media;
+	
+	
+	printf("Coloque a sua primeira nota:");
+	scanf("%f",&nota1);
+	
+	printf("coloque a sua segunda nota:");
+	scanf("%f",&nota2);
+	
+	printf("Coloque a sua terceira nota:");
+	scanf("%f",&nota3);
+	
+	
+	soma=nota1+nota2+nota3;
+	media=soma/3;
+
+	printf("Resultado %f", media);
+	
+	printf("O valor Caculado da media entre  %f, %f e %f  foi:%f", nota1,nota2,nota3,media);
+	return  0;
+	
+}
