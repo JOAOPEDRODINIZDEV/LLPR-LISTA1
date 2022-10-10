@@ -18,7 +18,7 @@ int main() {
 
    
 
-    soma=(valor1+valor2+valor3);
+    soma=valor1+valor2+valor3;
     media=soma/3;
 
      printf("O valor calculado entre a média Foi %f %f %f e %f",valor1, valor2, valor3, media);
